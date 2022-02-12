@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 16px;
+    color: #F8F9FA;
+}
+header {
+    background: #F03D3E;
+    text-align: center;
+}
+nav {
+    background: coral;
+    padding: 8px;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+nav ul li {
+    margin-right: 8px;
+}
+nav ul li a {
+    color: #F8F9FA;
+}
+main {
+    padding: 8px;
+    background: darkgreen;
+}
+article {
+    background: #374FC7;
+    padding: 8px;
+    margin-bottom: 4px;
+}
+footer {
+    background: #7048E8;
+    font-size: 2rem;
+    text-align: center;
+}
