@@ -1,14 +1,9 @@
 /* Стилизация кнопки */
-button {
-    padding: 0;
-    margin: 0;
-    border: 0;
-}
-
 .button {
     min-width: 182px;
     padding: 14px 62px;
     border-radius: 8px;
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -23,7 +18,7 @@ button {
 
 .button:disabled {
     opacity: 0.5;
-    cursor: default;
+    pointer-events: none
 }
 
 .button_primary {
