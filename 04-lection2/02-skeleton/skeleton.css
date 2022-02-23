@@ -20,6 +20,7 @@
 .skeleton__column {
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 
 .skeleton__bar {
@@ -29,21 +30,19 @@
 }
 
 .skeleton__bar_size_s {
-    width: 172px;
+    width: 39%;
 }
 
 .skeleton__bar_size_m {
-    width: 257px;
+    width: 57%;
 }
 
 .skeleton__avatar {
     background: var(--grey-2);
     border-radius: 50%;
-}
-
-.skeleton__avatar_size_m {
     width: 64px;
     height: 64px;
     margin-bottom: 24px;
     margin-right: 16px;
+    flex: 80px;
 }
