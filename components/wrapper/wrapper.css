@@ -1,0 +1,12 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: 450px 825px 1fr;
+    grid-template-rows: 82px 1fr 130px;
+    grid-row-gap: 36px;
+    grid-template-areas:
+        "header header header"
+        "nav main ."
+        "footer footer footer";
+    height: 100vh;
+    background: var(--grey-5);
+}

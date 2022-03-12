@@ -1,0 +1,36 @@
+.nav {
+    grid-area: nav;
+    padding-left: 165px;
+}
+
+.nav__title {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 26px;
+    color: var(--black);
+}
+
+.nav__list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav__option {
+    margin-bottom: 4px;
+}
+
+.nav__option-link {
+    text-decoration: none;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: var(--black);
+}
+
+.nav__option-selected .nav__option-link {
+    color: var(--orange);
+}

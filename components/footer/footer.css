@@ -1,0 +1,14 @@
+.footer {
+    grid-area: footer;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--grey-3);
+}
