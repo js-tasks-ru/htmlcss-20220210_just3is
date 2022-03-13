@@ -1,0 +1,26 @@
+.image {
+    background: url('public/forest_400.jpg') no-repeat center center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+@media screen and (min-width: 400px) {
+    .image {
+        background-image: url('public/forest_768.jpg');
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .image {
+        background-image: url('public/forest_1024.jpg');
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .image {
+        background-image: url('public/forest_2560.jpg');
+    }
+}
